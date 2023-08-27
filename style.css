@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding-top: 10px;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    background-image: url(Bg.png);
+    background-size: 100rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+#main{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+#main #heading{
+    padding-top: 90px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(1, 7, 97, 0.200);
+    opacity: 1;
+}
+.box{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+#cnvrt{
+    width: 100%;
+    padding: 40px;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+#cnvrt #cel{
+    width: 30%;
+}
+#cnvrt #fah{
+    width: 30%;
+}
+#cnvrt #kel{
+    width: 30%;
+}
+#cnvrt #cel h2{
+    width: 100%;
+    
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:cursive;
+}
+#cnvrt #cel h2::first-letter{
+    font-size: 50px;
+}
+#cnvrt #fah h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:cursive;
+}
+#cnvrt #fah h2::first-letter{
+    font-size: 50px;
+}
+#cnvrt #kel h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:cursive;
+}
+#cnvrt #kel h2::first-letter{
+    font-size: 50px;
+}
+#cnvrt #cel input{
+    width: 100%;
+    padding: 35px 15px 15px 25px;
+    background-color: rgb(240, 142, 23);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    outline-offset: -9px;
+    font-family: cursive;
+    transition: all 1s;
+}
+#cnvrt #fah input{
+    width: 100%;
+    padding: 35px 15px 15px 25px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    outline-offset: -9px;
+    font-family: cursive;
+    transition: all 1s;
+}
+#cnvrt #kel input{
+    width: 100%;
+    padding: 35px 15px 15px 25px;
+    background-color: rgb(48, 255, 16);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    outline-offset: -9px;
+    font-family: cursive;
+    transition: all 1s;
+}
+
+#res{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#reset{
+    padding: 11px 30px;
+    color: rgb(255, 241, 240);
+    background-color: rgb(40, 58, 163);
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    transition: all 1s;
+
+    align-items: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset;
+}
+#reset:hover{
+    background-color: rgb(235, 21, 21);
+    color: white;
+}
+#main-footer {
+    font-size:large;
+    color:white;
+    background-color: rgba(6, 6, 98, 0.4);
+    padding: 1rem 4rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  #main-footer div a {
+    color: #333;
+    padding: 0.5rem 1rem;
+  }
+  .footersec{
+    padding-top: 50px;
+  }
